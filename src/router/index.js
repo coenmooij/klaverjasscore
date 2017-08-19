@@ -1,15 +1,16 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Klaverjassen from '@/components/Klaverjassen'
+import Vue from "vue";
+import Router from "vue-router";
+import Klaverjassen from "@/components/Klaverjassen";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Klaverjassen',
-      component: Klaverjassen
-    }
-  ]
+    mode: 'history',
+    routes: [
+        {
+            path: '/',
+            name: 'Klaverjassen',
+            component: Klaverjassen
+        }
+    ]
 })
