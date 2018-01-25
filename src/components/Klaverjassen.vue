@@ -8,13 +8,11 @@
                 </div>
             </div>
         </div>
-        <app-footer></app-footer>
     </div>
 </template>
 
 <script>
     import Header from './Header.vue';
-    import Footer from './Footer.vue';
 
     import Start from'./Start.vue';
     import Score from './Score.vue';
@@ -30,7 +28,6 @@
             'app-header': Header,
             'app-start': Start,
             'app-score': Score,
-            'app-footer': Footer,
         },
         methods: {
             startGame(players){
